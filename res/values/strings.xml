@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple Todo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="input_hint">Enter a Task</string>
+    <string name="submit_button">Submit</string>
+    <string name="title_activity_login">Log In</string>
+    <string name="title_activity_register">Register</string>
+    <string name="action_logout">Logout</string>
+    <string name="username">Username:</string>
+    <string name="sign_up_label">Sign Up</string>
+    <string name="password_label">Password:</string>
+    <string name="already_have_an_account_label">Already Have An Account? Log In!</string>
+    <string name="sign_in_label">Sign In</string>
+    <string name="dont_have_an_account_label">Don&amp;apos;t have an account? Register!</string>
+    <string name="task_result">\u3024</string>
+    <string name="task_result_checked">\u2713</string>
+    <string name="task_arrow">\u3009</string>
+
+    <string name="app_id">YOUR_APP_ID</string>
+    <string name="client_id">YOUR_CLIENT_ID</string>
+    
+</resources>

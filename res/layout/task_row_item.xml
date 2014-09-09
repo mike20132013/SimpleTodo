@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/task_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="3dp"
+        android:text="@string/task_arrow"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#01579b" />
+
+    <TextView
+        android:id="@+id/task_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:padding="3dp"
+        android:text="Task Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#01579b" />
+
+    <TextView
+        android:id="@+id/task_result"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:paddingRight="3dp"
+        android:text="@string/task_result"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#01579b" />
+
+</LinearLayout>
